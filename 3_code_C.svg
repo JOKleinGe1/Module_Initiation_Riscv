@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="3_code_C.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3204072"
+     inkscape:cx="437.36508"
+     inkscape:cy="390.40987"
+     inkscape:window-width="1464"
+     inkscape:window-height="916"
+     inkscape:window-x="50"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker29"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Colored triangle"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path29" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ColoredTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Colored triangle"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5" />
+    </marker>
+    <rect
+       x="148.49251"
+       y="302.60974"
+       width="640.09272"
+       height="590.59521"
+       id="rect10" />
+    <rect
+       x="45.746036"
+       y="195.36708"
+       width="646.91907"
+       height="927.1526"
+       id="rect4" />
+    <rect
+       x="45.746036"
+       y="138.21653"
+       width="582.18597"
+       height="930.57856"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;stroke-width:0.4;stroke-linejoin:bevel"
+       id="rect1"
+       width="40.766655"
+       height="17.432589"
+       x="12.103639"
+       y="12.166549" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;font-family:Sans;-inkscape-font-specification:'Sans Bold';fill:#ffffff;stroke-width:0.4;stroke-linejoin:bevel"
+       x="17.689531"
+       y="22.389725"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3-8"
+         style="fill:#ffffff;stroke-width:0.4"
+         x="17.689531"
+         y="22.389725">Document 3</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-weight:bold;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans Bold';white-space:pre;shape-inside:url(#rect2);display:inline;fill:#ffffff;stroke-width:1.51181;stroke-linejoin:bevel" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,3.1068771,137.96663)"
+       id="text4"
+       style="font-weight:bold;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans Bold';white-space:pre;shape-inside:url(#rect4);display:inline;fill:#ffffff;stroke-width:1.51181;stroke-linejoin:bevel"><tspan
+         x="45.746094"
+         y="209.96447"
+         id="tspan5"><tspan
+           style="fill:#000000"
+           id="tspan4">//test.c
+</tspan></tspan><tspan
+         x="45.746094"
+         y="229.96447"
+         id="tspan9"><tspan
+           style="fill:#000000"
+           id="tspan6">#include </tspan><tspan
+           style="fill:#ff00ff"
+           id="tspan7">&lt;stdint.h&gt;</tspan><tspan
+           style="fill:#000000"
+           id="tspan8">
+</tspan></tspan><tspan
+         x="45.746094"
+         y="249.96447"
+         id="tspan11"><tspan
+           style="fill:#000000"
+           id="tspan10">
+</tspan></tspan><tspan
+         x="45.746094"
+         y="269.96447"
+         id="tspan20"><tspan
+           style="fill:#000000"
+           id="tspan12">#define   </tspan><tspan
+           style="fill:#ff6600"
+           id="tspan13">LEDRADDRESS</tspan><tspan
+           style="fill:#000000"
+           id="tspan14">   (</tspan><tspan
+           style="fill:#ff0000"
+           id="tspan15">*</tspan><tspan
+           style="fill:#0000ff"
+           id="tspan16">(volatile uint8_t *)</tspan><tspan
+           style="fill:#000000"
+           id="tspan17">  </tspan><tspan
+           style="fill:#008000"
+           id="tspan18">0x8000</tspan><tspan
+           style="fill:#000000"
+           id="tspan19">)
+</tspan></tspan><tspan
+         x="45.746094"
+         y="289.96447"
+         id="tspan35"><tspan
+           style="fill:#000000"
+           id="tspan21">#define   </tspan><tspan
+           style="fill:#ff6600"
+           id="tspan22">SWADDRESS</tspan><tspan
+           style="fill:#000000"
+           id="tspan23">   (</tspan><tspan
+           style="fill:#ff0000"
+           id="tspan25">*</tspan><tspan
+           style="fill:#0000ff"
+           id="tspan31">(volatile uint8_t *)</tspan><tspan
+           style="fill:#000000"
+           id="tspan32">  </tspan><tspan
+           style="fill:#008000"
+           id="tspan33">0x8004</tspan><tspan
+           style="fill:#000000"
+           id="tspan34">)
+</tspan></tspan><tspan
+         x="45.746094"
+         y="309.96447"
+         id="tspan161"><tspan
+           style="fill:#000000"
+           id="tspan160">
+</tspan></tspan><tspan
+         x="45.746094"
+         y="329.96447"
+         id="tspan163"><tspan
+           style="fill:#000000"
+           id="tspan162">int main (void){
+</tspan></tspan><tspan
+         x="45.746094"
+         y="349.96447"
+         id="tspan166"><tspan
+           style="fill:#000000"
+           id="tspan164">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan165">int i=1; 
+</tspan></tspan><tspan
+         x="45.746094"
+         y="369.96447"
+         id="tspan169"><tspan
+           style="fill:#000000"
+           id="tspan167">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan168">while (1){
+</tspan></tspan><tspan
+         x="45.746094"
+         y="389.96447"
+         id="tspan174"><tspan
+           style="fill:#000000"
+           id="tspan170">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan171">	</tspan><tspan
+           style="fill:#ff6600"
+           id="tspan172">LEDRADDRESS</tspan><tspan
+           style="fill:#000000"
+           id="tspan173"> =  i++;
+</tspan></tspan><tspan
+         x="45.746094"
+         y="409.96447"
+         id="tspan180"><tspan
+           style="fill:#000000"
+           id="tspan175">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan176">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan177">while (</tspan><tspan
+           style="fill:#ff6600"
+           id="tspan178">SWADDRESS</tspan><tspan
+           style="fill:#000000"
+           id="tspan179"> &amp; 0x01);
+</tspan></tspan><tspan
+         x="45.746094"
+         y="429.96447"
+         id="tspan183"><tspan
+           style="fill:#000000"
+           id="tspan181">	</tspan><tspan
+           style="fill:#000000"
+           id="tspan182"> }
+</tspan></tspan><tspan
+         x="45.746094"
+         y="449.96447"
+         id="tspan185"><tspan
+           style="fill:#000000"
+           id="tspan184">return 0;  
+</tspan></tspan><tspan
+         x="45.746094"
+         y="469.96447"
+         id="tspan187"><tspan
+           style="fill:#000000"
+           id="tspan186">}
+</tspan></tspan><tspan
+         x="45.746094"
+         y="489.96447"
+         id="tspan189"><tspan
+           style="fill:#000000"
+           id="tspan188">
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-27.184919,-44.050903)"
+       id="text10"
+       style="font-weight:bold;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans Bold';white-space:pre;shape-inside:url(#rect10);display:inline;fill:#008000;stroke-width:1.51181;stroke-linejoin:bevel"><tspan
+         x="148.49219"
+         y="317.20666"
+         id="tspan193"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan190">En langage C, l’accès à un registre </tspan><tspan
+           style="font-style:italic"
+           id="tspan191">mappé</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan192"> en mémoire (qui a une adresse </tspan></tspan><tspan
+         x="148.49219"
+         y="337.20666"
+         id="tspan195"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan194">dans l’espace mémoire), se fait en utilisant un pointeur. On part de l’adresse </tspan></tspan><tspan
+         x="148.49219"
+         y="357.20666"
+         id="tspan197"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan196">donnée explicitement par une constante entière, généralement en codage </tspan></tspan><tspan
+         x="148.49219"
+         y="377.20666"
+         id="tspan201"><tspan
+   style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+   id="tspan198">hexadécimal, ici en vert </tspan>0x8000<tspan
+   style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+   id="tspan199"> ou </tspan>0x8004<tspan
+   style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+   id="tspan200">.
+</tspan></tspan><tspan
+         x="148.49219"
+         y="397.20666"
+         id="tspan203"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan202"> 
+</tspan></tspan><tspan
+         x="148.49219"
+         y="417.20666"
+         id="tspan205"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan204">La taille du registre (8, 16 ou 32 bits) définit le type de base du langage C qui </tspan></tspan><tspan
+         x="148.49219"
+         y="437.20666"
+         id="tspan209"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan206">doit être utilisé (unsigned char, short, int, ou mieux </tspan><tspan
+           style="fill:#0000ff"
+           id="tspan207">uint8_t</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan208">, uint16_t , </tspan></tspan><tspan
+         x="148.49219"
+         y="457.20666"
+         id="tspan213"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan210">uint32_t définis dans </tspan><tspan
+           style="fill:#ff00ff"
+           id="tspan211">&lt;stdint.h&gt;</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan212">). A partir de ce type de base, il faut </tspan></tspan><tspan
+         x="148.49219"
+         y="477.20666"
+         id="tspan217"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan214">construire un pointeur, par ex. ici</tspan><tspan
+           style="fill:#0000ff"
+           id="tspan215"> (uint8_t *)</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan216">, c’est l’objet de l’opération de </tspan></tspan><tspan
+         x="148.49219"
+         y="497.20666"
+         id="tspan220"><tspan
+           style="font-style:italic;fill:#0000ff"
+           id="tspan218">cast</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan219"> (changement de type) en bleu dans le code.
+</tspan></tspan><tspan
+         x="148.49219"
+         y="517.20666"
+         id="tspan222"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan221"> 
+</tspan></tspan><tspan
+         x="148.49219"
+         y="537.20666"
+         id="tspan226"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan223">Le mot clé « </tspan><tspan
+           style="fill:#0000ff"
+           id="tspan224">volatile</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan225"> » précise au compilateur qu’il ne s’agit pas réellement </tspan></tspan><tspan
+         x="148.49219"
+         y="557.20666"
+         id="tspan228"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan227">d’une mémoire, la donnée écrite n’est pas réellement mémorisée, il faut donc </tspan></tspan><tspan
+         x="148.49219"
+         y="577.20666"
+         id="tspan230"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan229">que tous les accès en lecture et en écriture soit effectivement réalisés et éviter </tspan></tspan><tspan
+         x="148.49219"
+         y="597.20666"
+         id="tspan232"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan231">des optimisations du compilateur qui pourraient en supprimer certains.
+</tspan></tspan><tspan
+         x="148.49219"
+         y="617.20666"
+         id="tspan234"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan233">
+</tspan></tspan><tspan
+         x="148.49219"
+         y="637.20666"
+         id="tspan236"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan235">Pour acccéder au registre, ce n’est pas l’adresse qu’on souhaite manipuler, </tspan></tspan><tspan
+         x="148.49219"
+         y="657.20666"
+         id="tspan240"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan237">mais la données qui s’y trouve, il faut donc </tspan><tspan
+           style="font-style:italic"
+           id="tspan238">déréférencer</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan239"> le pointeur (accéder </tspan></tspan><tspan
+         x="148.49219"
+         y="677.20666"
+         id="tspan247"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan241">à </tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan242">la donnée qui se trouve à cette adresse) avec l’opérateur de </tspan><tspan
+           style="font-style:italic;fill:#ff0000"
+           id="tspan243">déférence</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan244"> </tspan><tspan
+           style="fill:#ff0000"
+           id="tspan245">*</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan246"> </tspan></tspan><tspan
+         x="148.49219"
+         y="697.20666"
+         id="tspan250"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan248">(en </tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan249">rouge ici). 
+</tspan></tspan><tspan
+         x="148.49219"
+         y="717.20666"
+         id="tspan252"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan251">
+</tspan></tspan><tspan
+         x="148.49219"
+         y="737.20666"
+         id="tspan258"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan253">Finalement, il reste à définir une </tspan><tspan
+           style="fill:#ff7f2a"
+           id="tspan254">constante symbolique</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan255"> (ici en </tspan><tspan
+           style="fill:#ff7f2a"
+           id="tspan256">orange</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan257">) pour </tspan></tspan><tspan
+         x="148.49219"
+         y="757.20666"
+         id="tspan260"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan259">pouvoir accèder facilement au registre en écriture (dans une affectation) ou en </tspan></tspan><tspan
+         x="148.49219"
+         y="777.20666"
+         id="tspan263"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan261">lecture </tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Sans;fill:#000000"
+           id="tspan262">(dans une condition, un test). 
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff7f2a;stroke-width:0.4;stroke-linejoin:bevel"
+       x="96.334152"
+       y="234.13226"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="stroke-width:0.4"
+         x="96.334152"
+         y="234.13226">Écriture des LED à l'adresse 0x8000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff7f2a;stroke-width:0.4;stroke-linejoin:bevel"
+       x="84.478157"
+       y="266.58606"
+       id="text26-1"><tspan
+         sodipodi:role="line"
+         id="tspan26-3"
+         style="stroke-width:0.4"
+         x="84.478157"
+         y="266.58606">Lecture des switchs à l'adresse 0x8004</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Sans;-inkscape-font-specification:Sans;fill:#ff7f2a;stroke-width:0.4;stroke-linejoin:bevel"
+       x="19.087111"
+       y="172.17503"
+       id="text26-1-7"><tspan
+         sodipodi:role="line"
+         id="tspan26-3-0"
+         style="fill:#008000;stroke-width:0.4"
+         x="19.087111"
+         y="172.17503">Les adresses sont des multiples de 4 pour simplifier l'accès aux registres</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#008000;stroke-width:0.4"
+         x="19.087111"
+         y="177.46669"
+         id="tspan27"> en un cycle car le CPU possède un bus de données </tspan><tspan
+         sodipodi:role="line"
+         style="fill:#008000;stroke-width:0.4"
+         x="19.087111"
+         y="182.75836"
+         id="tspan30">de largeur 32 bits (4 octets). </tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linejoin:bevel;marker-end:url(#ColoredTriangle)"
+       d="m 94.845949,232.85568 c 0,0 -14.776685,-6.38823 -24.301204,-4.23539 -9.524521,2.15284 -21.13253,6.51629 -21.13253,6.51629"
+       id="path26" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linejoin:bevel;marker-end:url(#ColoredTriangle)"
+       d="M 83.877348,264.81183 50.686097,252.07671"
+       id="path27" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linejoin:bevel;marker-end:url(#marker29)"
+       d="m 118.04281,179.22551 15.75905,25.1669"
+       id="path28" />
+  </g>
+</svg>
